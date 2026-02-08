@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Thawan Santos | Desenvolvedor Full-Stack",
   description: "Portfólio profissional de Thawan Santos - Desenvolvedor Full-Stack com experiência em React, Next.js, TypeScript e Web Design. Conheça meus projetos e serviços.",
+  icons: {
+    icon: "/favicon.ico",
+  },
   keywords: "desenvolvedor, web developer, full-stack, react, next.js, typescript, frontend, backend, portfolio, thawan santos",
   authors: [{ name: "Thawan Santos", url: "https://portfoliothawansantos.netlify.app" }],
   creator: "Thawan Santos",
