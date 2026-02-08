@@ -19,20 +19,23 @@ const Navbar = () => {
                     />
 
                     <span className="font-bold ml-[10px] block text-gray-300 z-50 md:text-lg text-xl">
-                        Jenin Joseph
+                        Thawan Santos
                     </span>
                 </a>
 
                 <div className="hidden w-3/6 lg:w-1/3 h-full md:flex flex-row items-center justify-between md:mx-auto lg:pr-12">
                     <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
                         <a href="#about" className="cursor-pointer">
-                            About me
+                            Sobre Mim
                         </a>
                         <a href="#skills" className="cursor-pointer">
-                            Skills
+                            Habilidades
+                        </a>
+                        <a href="#services" className="cursor-pointer">
+                            Serviços
                         </a>
                         <a href="#projects" className="cursor-pointer">
-                            Projects
+                            Projetos
                         </a>
                     </div>
                 </div>

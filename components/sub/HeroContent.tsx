@@ -34,7 +34,7 @@ const HeroContent = () => {
                                     >
                                         <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Fullstack Developer
+                                            Desenvolvedor FullStack
                                         </h1>
                                     </motion.div>
                                 )}
@@ -51,23 +51,7 @@ const HeroContent = () => {
                                     >
                                         <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Tech Innovator
-                                        </h1>
-                                    </motion.div>
-                                )}
-                            </InView>
-                            <InView triggerOnce={false}>
-                                {({ inView, ref }) => (
-                                    <motion.div
-                                        ref={ref}
-                                        initial="hidden"
-                                        animate={inView ? "visible" : "hidden"}
-                                        variants={slideInFromTop}
-                                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
-                                    >
-                                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
-                                        <h1 className="Welcome-text text-[13px]">
-                                            Team Lead
+                                            Inovador em Tecnologia
                                         </h1>
                                     </motion.div>
                                 )}
@@ -84,17 +68,23 @@ const HeroContent = () => {
                                     className="flex flex-col gap-6 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[600px] w-auto h-auto z-20"
                                 >
                                     <span>
-                                        Coding
+                                        Construindo
                                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                                             {" "}
-                                            Dreams{" "}
+                                            Soluções{" "}
                                         </span>
-                                        into
+                                        com
                                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                                             {" "}
-                                            Reality{" "}
+                                            Código{" "}
                                         </span>
-                                        one line at a time
+                                        e
+                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                            {" "}
+                                            Inovação{" "}
+                                        </span>
+                                        ,
+                                        um projeto de cada vez.
                                     </span>
                                 </motion.div>
                             )}
@@ -110,19 +100,13 @@ const HeroContent = () => {
                                     className="text-sm md:text-md text-gray-400 my-5 max-w-[650px] z-30"
                                 >
                                     <li>
-                                        Finalist in the Top 100 Coders Challenge
+                                        Técnico em Informática para Internet
                                     </li>
                                     <li>
-                                        Ranked within the Top 9,000 on
-                                        HackerRank
+                                        Especializado em desenvolvimento web e de aplicativos.
                                     </li>
                                     <li>
-                                        Participated and Completed Hacktoberfest
-                                        2023
-                                    </li>
-                                    <li>
-                                        Served as a Mentor in Multiple
-                                        Hackathons.
+                                        Aberto a oportunidades de trabalho freelance, por contrato e remoto como CLT.
                                     </li>
                                 </motion.div>
                             )}
@@ -137,7 +121,7 @@ const HeroContent = () => {
                                     variants={slideInFromLeft(1)}
                                     className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] z-40"
                                 >
-                                    Learn More!
+                                    Saiba mais!
                                 </motion.a>
                             )}
                         </InView>
