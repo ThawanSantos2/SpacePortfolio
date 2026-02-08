@@ -73,60 +73,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="pt-BR">
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#0f172a" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Thawan Santos" />
-        
-        {/* Ícones e Manifest */}
-        <link rel="icon" href="/favicon.jpg" type="image/jpeg" />
-        <link rel="shortcut icon" href="/favicon.jpg" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/favicon.jpg" />
-        <link rel="manifest" href="/manifest.json" />
-        
-        {/* Preconnect para otimizar recursos */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        
-        {/* DNS Prefetch */}
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        
-        {/* Structured Data - JSON-LD */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-              name: "Thawan Santos",
-              url: "https://portfoliothawansantos.netlify.app",
-              jobTitle: "Full-Stack Developer",
-              worksFor: {
-                "@type": "Organization",
-                name: "Freelancer",
-              },
-              sameAs: [
-                "https://linkedin.com/in/thawansantos2",
-                "https://github.com/ThawanSantos2",
-                "https://wa.me/5579998466084",
-              ],
-              image: "https://portfoliothawansantos.netlify.app/og-image.png",
-              description: "Desenvolvedor Full-Stack com expertise em React, Next.js e TypeScript",
-            }),
-          }}
-        />
-      </head>
-      <body className={inter.className}>
-        <StarsCanvas />
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
-  );
+     return (
+        <html lang="en">
+            <body
+                className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden max-w-[1855px] mx-auto`}
+            >
+                <StarsCanvas />
+                <Navbar />
+                {children}
+                {/* <Footer /> */}
+            </body>
+        </html>
+    );
 }
