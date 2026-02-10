@@ -266,7 +266,7 @@ export const Projects_data = [
     shortDescription: "Loja online de moda feminina",
     fullDescription: "E-commerce de roupas femininas com design elegante e moderno. Sistema completo de produtos, carrinho de compras, filtros por categoria e tamanho. Interface responsiva e otimizada para conversão.",
     image: "/margutta.png",
-    link: "https://margutta.netlify.app",
+    link: "https://marguttamgt.com.br",
     tags: ["React", "TailwindCSS", "Node.js"],
   },
 ];
